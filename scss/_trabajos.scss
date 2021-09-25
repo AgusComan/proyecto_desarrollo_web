@@ -1,0 +1,62 @@
+/*------ SECTION TRABAJOS-------*/
+
+/* galeria Casa Urquiza*/
+.galeriaCasaUrquiza {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+        "principal principal segunda"
+        "principal principal tercera";
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    grid-column-gap: 20px;
+    padding: 0px 200px 100px 200px;
+}
+
+.galeriaCasaUrquiza div img {
+    width: 100%;
+}
+
+.fotoPrincipal {
+    grid-area: principal;
+}
+
+.fotoSecundaria {
+    grid-area: segunda;
+}
+
+.fotoTercera {
+    grid-area: tercera;
+}
+
+.galeriaCasaUrquiza div img {
+    transition: all 1s;
+}
+
+.galeriaCasaUrquiza div img:hover {
+    transform: scale(1.10, 1.10);
+}
+
+/* Galeria Casa Vallejos*/
+.galeriaCasaVallejos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px;
+    
+}
+
+.galeriaCasaVallejos div img {
+    width: 300px;
+}
+
+.galeriaCasaVallejos div img {
+    transition: all 1s;
+}
+
+.galeriaCasaVallejos div :hover {
+    transform: scale(1.10, 1.10);
+}

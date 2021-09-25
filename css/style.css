@@ -1,0 +1,375 @@
+/* IMPORTS */
+/* VARIABLES */
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+html h1 {
+  font-size: 40px;
+  margin: 50px 100px;
+  border: solid #926d55 4px;
+  background-color: #926d55;
+  text-align: center;
+  --animate-duration: 2s;
+}
+
+html h3 {
+  text-align: center;
+  padding: 50px 0px;
+  text-decoration: underline;
+}
+
+/*------HEADER-------*/
+.encabezado {
+  background-color: #E7E0C9;
+}
+
+.encabezado .encabezado__logo {
+  width: 50px;
+  margin-left: 50px;
+}
+
+.encabezado .encabezado__menuNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+}
+
+.encabezado .encabezado__menuNav .menu__secciones {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.encabezado .encabezado__menuNav a:hover {
+  -webkit-box-shadow: slategray 2px 2px;
+          box-shadow: slategray 2px 2px;
+  background-color: #E7E0C9;
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
+
+/*------FOOTER-------*/
+.footer {
+  background-color: #E7E0C9;
+  border-top: #926d55 solid 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer .footer__logo {
+  padding: 20px;
+}
+
+.footer .footer__logo .logo__a .a__img {
+  width: 80px;
+  padding-top: 30px;
+}
+
+.footer .footer__menu .menu_navegacion {
+  list-style-type: none;
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.footer .footer__menu .menu_navegacion .menu_lista {
+  padding: 10px;
+  text-align: center;
+}
+
+.footer .footer__menu .menu_navegacion .menu_lista .lista__texto {
+  text-decoration: none;
+  color: black;
+}
+
+.derechos {
+  background-color: #E7E0C9;
+  text-align: center;
+}
+
+/*------SECTION INDEX--------*/
+.intro .intro__titulo {
+  font-size: 40px;
+  margin: 50px 100px;
+  border: solid #926d55 4px;
+  background-color: #926d55;
+  text-align: center;
+  --animate-duration: 2s;
+}
+
+.intro .intro__Texto {
+  text-align: center;
+  padding: 40px 100px 0px 100px;
+  --animate-duration: 3s;
+}
+
+/*----SECTION CASAS-----*/
+.section {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.section .sectionCasas__contenedor .contenedor__columnas .columnas__casa {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.section .sectionCasas__contenedor .contenedor__columnas .columnas__casa:hover {
+  -webkit-box-shadow: slategray 3px 3px;
+          box-shadow: slategray 3px 3px;
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+}
+
+/* acordeon */
+.acordeon {
+  margin-bottom: 50px;
+}
+
+.acordeon .acordeon__seccion .seccion__titulo .titulo__descripcion {
+  background-color: #E7E0C9;
+  border-bottom: solid 1px #afa57f;
+}
+
+/*------SECTION PRODUCTOS--------*/
+.sectionProducto {
+  padding: 30px;
+}
+
+.sectionProducto .sectionProducto__contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 40px 0px;
+  border: 2px solid black;
+  margin: 25px 90px;
+}
+
+.sectionProducto .sectionProducto__contenedor .contenedor__texto .texto__titulo {
+  font-size: 25px;
+  text-align: left;
+  text-decoration: underline;
+}
+
+.sectionProducto :hover {
+  background-color: #ecebeb;
+}
+
+/*------ SECTION TRABAJOS-------*/
+/* galeria Casa Urquiza*/
+.galeriaCasaUrquiza {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+      grid-template-areas: "principal principal segunda" "principal principal tercera";
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  grid-column-gap: 20px;
+  padding: 0px 200px 100px 200px;
+}
+
+.galeriaCasaUrquiza div img {
+  width: 100%;
+}
+
+.fotoPrincipal {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: principal;
+}
+
+.fotoSecundaria {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: segunda;
+}
+
+.fotoTercera {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: tercera;
+}
+
+.galeriaCasaUrquiza div img {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.galeriaCasaUrquiza div img:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+}
+
+/* Galeria Casa Vallejos*/
+.galeriaCasaVallejos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 50px;
+}
+
+.galeriaCasaVallejos div img {
+  width: 300px;
+}
+
+.galeriaCasaVallejos div img {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.galeriaCasaVallejos div :hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+}
+
+/*------SECTION EMPRESA---------*/
+.sectionEmpresa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 100px 50px;
+}
+
+.sectionEmpresa .empresa__Texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0px  30px;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+.sectionEmpresa .empresa__imagen {
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+.sectionEmpresa .empresa__imagen:hover,
+.sectionEmpresa .empresa__Texto:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+}
+
+/*------SECTION CONTACTO-------*/
+.sectionContacto {
+  background-image: url(../imagenes/foto_contacto.jfif);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding-left: 10px;
+}
+
+.sectionError {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: 100px 30px;
+}
+
+.sectionError .error__imagen {
+  margin-top: 30px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .cajasInicio {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .caja {
+    margin-bottom: 50px;
+  }
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */

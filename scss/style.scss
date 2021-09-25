@@ -1,0 +1,30 @@
+/* IMPORTS */
+@import "variables";
+@import "generales";
+@import "index";
+@import "productos";
+@import "trabajos";
+@import "empresa";
+@import "contacto";
+@import "error";
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .cajasInicio {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .caja {
+        margin-bottom: 50px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

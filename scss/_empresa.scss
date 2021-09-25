@@ -1,0 +1,24 @@
+/*------SECTION EMPRESA---------*/
+
+.sectionEmpresa {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 50px;
+
+    .empresa__Texto {
+        display: flex;
+        flex-direction: column;
+        padding: 0px  30px;
+        transition: all 2s;
+    }
+
+    .empresa__imagen {
+        transition: all 2s;
+    }
+
+    .empresa__imagen:hover,
+    .empresa__Texto:hover {
+        transform: scale(1.10, 1.10);
+    }
+}

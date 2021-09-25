@@ -1,0 +1,49 @@
+/*------SECTION INDEX--------*/
+.intro {
+    .intro__titulo {
+        font-size: 40px;
+        margin: 50px 100px;
+        border: solid $marron_oscuro 4px;
+        background-color: $marron_oscuro;
+        text-align: center;
+        --animate-duration: 2s;
+    }
+
+    .intro__Texto {
+        text-align: center;
+        padding: 40px 100px 0px 100px;
+        --animate-duration: 3s;
+    }
+}
+
+/*----SECTION CASAS-----*/
+.section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    .sectionCasas__contenedor {
+        .contenedor__columnas {
+            .columnas__casa{
+                transition: all 1s;
+            }
+            .columnas__casa:hover {
+                box-shadow: slategray 3px 3px;
+                transform: scale(1.1, 1.1);
+            }
+        }
+    }
+}
+
+/* acordeon */
+.acordeon {
+    margin-bottom: 50px;
+
+    .acordeon__seccion {
+        .seccion__titulo {
+            .titulo__descripcion {
+                background-color: $marron_claro;
+                border-bottom: solid 1px #afa57f;
+            }
+        }
+    }
+}
