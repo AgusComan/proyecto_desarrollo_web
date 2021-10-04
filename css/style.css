@@ -159,7 +159,20 @@ html h3 {
   border-bottom: solid 1px #afa57f;
 }
 
-/*------SECTION PRODUCTOS--------*/
+/*------SECTION SERVICIOS--------*/
+.servicios_cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+  margin: 20px;
+}
+
 /*------ SECTION TRABAJOS-------*/
 /* galeria Casa Urquiza*/
 .galeriaCasaUrquiza {
