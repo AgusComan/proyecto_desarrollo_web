@@ -13,20 +13,22 @@ html {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-html h1 {
-  font-size: 40px;
-  margin: 50px 100px;
-  border: solid #926d55 4px;
-  border-radius: 6px;
-  background-color: #926d55;
-  text-align: center;
-  --animate-duration: 2s;
-}
-
 html h3 {
   text-align: center;
   padding: 50px 0px;
   text-decoration: underline;
+}
+
+.titulo_general {
+  background-image: url(../imagenes/pared_recortada_.jpg);
+}
+
+.titulo_general .titulo_texto {
+  font-size: 70px;
+  font-family: 'Zen Tokyo Zoo', cursive;
+  color: white;
+  text-align: center;
+  padding: 4rem;
 }
 
 /*------HEADER-------*/
@@ -142,6 +144,7 @@ html h3 {
   font-family: 'Zen Tokyo Zoo', cursive;
   text-align: center;
   margin-right: 25px;
+  --animate-duration: 1s;
 }
 
 .intro .intro__Texto {
@@ -201,7 +204,7 @@ html h3 {
       -ms-flex-align: center;
           align-items: center;
   gap: 1rem;
-  margin: 20px;
+  margin: 80px auto 80px auto;
 }
 
 /*------ SECTION TRABAJOS-------*/
@@ -289,24 +292,6 @@ html h3 {
 }
 
 /*------SECTION EMPRESA---------*/
-.contenedor {
-  position: relative;
-  display: inline-block;
-  text-align: center;
-  width: 100%;
-}
-
-.contenedor .centrado {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  font-family: 'Zen Tokyo Zoo', cursive;
-  font-size: 60px;
-  color: green;
-}
-
 .sectionEmpresa {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -8,21 +8,24 @@
 
 html {
     font-family: 'Source Sans Pro', sans-serif;
-    h1 {
-        font-size: 40px;
-        margin: 50px 100px;
-        border: solid $marron_oscuro 4px;
-        border-radius: 6px;
-        background-color: $marron_oscuro;
-        text-align: center;
-        --animate-duration: 2s;
-    }
     h3 {
         text-align: center;
         padding: 50px 0px;
         text-decoration: underline;
     }
 }
+
+.titulo_general{
+    background-image: url(../imagenes/pared_recortada_.jpg);
+    .titulo_texto{
+        font-size: 70px;
+        font-family: 'Zen Tokyo Zoo', cursive;
+        color: white;
+        text-align: center;
+        padding: 4rem;
+    }
+}
+
 
 /*------HEADER-------*/
 
