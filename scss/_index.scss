@@ -23,12 +23,18 @@
 
     .sectionCasas__contenedor {
         .contenedor__columnas {
-            .columnas__casa{
-                transition: all 1s;
-            }
-            .columnas__casa:hover {
-                box-shadow: slategray 3px 3px;
-                transform: scale(1.1, 1.1);
+            .linkeo{
+                .columnas__casa{
+                    transition: all 1s;
+                    .texto_card{
+                        text-decoration: underline white;
+                        color: black;
+                    }
+                }
+                .columnas__casa:hover {
+                    box-shadow: slategray 3px 3px;
+                    transform: scale(1.1, 1.1);
+                }
             }
         }
     }
