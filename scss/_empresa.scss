@@ -1,4 +1,20 @@
 /*------SECTION EMPRESA---------*/
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    .centrado{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Zen Tokyo Zoo', cursive;
+        font-size: 60px;
+        color: green;
+    }
+}
+
 
 .sectionEmpresa {
     display: flex;
@@ -20,5 +36,14 @@
     .empresa__imagen:hover,
     .empresa__Texto:hover {
         transform: scale(1.10, 1.10);
+    }
+}
+
+
+.empresa_mapa{
+    margin-bottom: 4rem;
+    .titulo_mapa{
+        text-align: left;
+        margin-left: 4rem;
     }
 }
