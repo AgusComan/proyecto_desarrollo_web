@@ -160,35 +160,6 @@ html h3 {
 }
 
 /*------SECTION PRODUCTOS--------*/
-.sectionProducto {
-  padding: 30px;
-}
-
-.sectionProducto .sectionProducto__contenedor {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 40px 0px;
-  border: 2px solid black;
-  margin: 25px 90px;
-}
-
-.sectionProducto .sectionProducto__contenedor .contenedor__texto .texto__titulo {
-  font-size: 25px;
-  text-align: left;
-  text-decoration: underline;
-}
-
-.sectionProducto :hover {
-  background-color: #ecebeb;
-}
-
 /*------ SECTION TRABAJOS-------*/
 /* galeria Casa Urquiza*/
 .galeriaCasaUrquiza {
