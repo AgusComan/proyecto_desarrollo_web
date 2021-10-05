@@ -54,8 +54,8 @@ html h3 {
 }
 
 .encabezado .encabezado__menuNav .menu__secciones {
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all .3s;
+  transition: all .3s;
 }
 
 .encabezado .encabezado__menuNav a:hover {
